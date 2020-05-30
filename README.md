@@ -1,4 +1,3 @@
-<include a CircleCI status badge, here>
 # Template:
 [![Mustafa Al-tekreeti](https://circleci.com/gh/mustafa al-tekreeti/machine-learning-microservice.svg?style=shield)](https://app.circleci.com/pipelines/github/Al-tekreeti/ML-Microservices/5/workflows/5eb92a9a-0373-432d-a799-da8474618e70/jobs/5)
 
