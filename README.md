@@ -1,4 +1,4 @@
-[![Mustafa Al-tekreeti](https://circleci.com/gh/Al-tekreeti/ML-Microservices.svg?style=svg)](https://github.com/Al-tekreeti/ML-Microservices/tree/master)
+[![Mustafa Al-tekreeti](https://circleci.com/gh/Al-tekreeti/ML-Microservices.svg?style=shield)](https://github.com/Al-tekreeti/ML-Microservices/tree/master)
 
 ## Project Overview
 
