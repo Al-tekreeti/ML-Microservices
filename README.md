@@ -2,7 +2,20 @@
 
 ## Project Summary
 
-In this project, a machine learning based prediction model is operationalized. The model predicts house prices in Boston, USA given a set of features, such as the crime rate, average number of rooms, pupil-teacher ratio by town, to name few. The model trained with the data set that is publishe in <a href="https://www.kaggle.com/c/boston-housing" class="mw-redirect" title="Kaggle site">Kaggle site.</a>
+In this project, a machine learning based prediction model is operationalized. The model predicts house prices in Boston, USA given a set of features, such as the crime rate, average number of rooms, pupil-teacher ratio by town, to name few. The model trained with the data set that is published in <a href="https://www.kaggle.com/c/boston-housing" class="mw-redirect" title="Kaggle site">Kaggle site.</a> The prediction model is developed as a flask python application, containerized using docker, and deployed locally using kubernetes for testing and debugging purposes. The quality of the code is tested by importing the projrct repo into CircleCI.
+
+## Usage
+
+The commands used in this illustration have been tested in a linux-based machine. For other types of systems, you may need to modify some commands. First of all, clone the repo. Then, setup an isolated environment by running:
+<code>python3 -m venv ~/.env1</code>
+<code>source ~/.env1/bin/activate</code>
+Then, install the required libraries by running:
+<code>make install</code>
+The dependencies are listed in the <code>requirements.txt</code>. Now, to run the application, you have the following three choices:
+1. Standalone:  `python app.py`
+2. Run in Docker:  `./run_docker.sh`
+3. Run in Kubernetes:  `./run_kubernetes.sh`
+To run the app in a docker conatiner, you need to have a [docker](https://www.docker.com) account and installation. To run the app in a local Kubernetes cluster, you need to install [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/).
 
 ## Project Overview
 
