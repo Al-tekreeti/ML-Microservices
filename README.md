@@ -10,9 +10,7 @@ The commands used in this illustration have been tested in a linux-based machine
 1. <code>python3 -m venv ~/.env1</code>
 2. <code>source ~/.env1/bin/activate</code>
 
-Then, install the required libraries by running:
-<code>make install</code>
-The `Makefile` includes instructions on environment setup and lint tests. The dependencies are listed in the <code>requirements.txt</code>. Now, to run the application, you have the following three choices:
+Then, install the required libraries by running <code>make install</code>. The `Makefile` includes instructions on environment setup and lint tests. The dependencies are listed in the <code>requirements.txt</code>. Now, to run the application, you have the following three choices:
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
