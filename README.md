@@ -15,7 +15,8 @@ The dependencies are listed in the <code>requirements.txt</code>. Now, to run th
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
-To run the app in a docker conatiner, you need to have a [docker](https://www.docker.com) account and installation. To run the app in a local Kubernetes cluster, you need to install [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/).
+
+To run the app in a docker conatiner, you need to have a [docker](https://www.docker.com) account and installation. To run the app in a local Kubernetes cluster, you need to install [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/). To make house price predictions, you need to run the shell script 
 
 ## Project Overview
 
