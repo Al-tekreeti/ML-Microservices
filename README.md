@@ -7,10 +7,8 @@ In this project, a machine learning based prediction model is deployed. The mode
 ## Usage
 
 The commands used in this illustration have been tested in a linux-based machine. For other types of systems, you may need to modify some commands. First of all, clone the repo. Then, setup an isolated environment by running:
-
-<code>python3 -m venv ~/.env1</code>
-
-<code>source ~/.env1/bin/activate</code>
+1. <code>python3 -m venv ~/.env1</code>
+2. <code>source ~/.env1/bin/activate</code>
 
 Then, install the required libraries by running:
 <code>make install</code>
