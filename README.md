@@ -1,4 +1,8 @@
-[![Mustafa Al-tekreeti](https://circleci.com/gh/Al-tekreeti/ML-Microservices.svg?style=shield)](https://github.com/Al-tekreeti/ML-Microservices/tree/master)
+[![Mustafa Al-tekreeti](https://circleci.com/gh/Al-tekreeti/ML-Microservices.svg?style=svg)](https://github.com/Al-tekreeti/ML-Microservices/tree/master)
+
+## Project Summary
+
+In this project, a machine learning based prediction model is operationalized. The model predicts house prices in Boston, USA given a set of features, such as the crime rate, average number of rooms, pupil-teacher ratio by town, to name few. The model trained with the data set that is publishe in <a href="https://www.kaggle.com/c/boston-housing" class="mw-redirect" title="Kaggle site">Kaggle site.</a>
 
 ## Project Overview
 
